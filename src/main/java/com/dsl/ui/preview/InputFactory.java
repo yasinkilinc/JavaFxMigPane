@@ -13,6 +13,8 @@ public class InputFactory
         {
             case "TextField":
                 return new TextInput(input);
+            case "RadioButton":
+                return new RadioInput(input);
         }
         return null;
     }
